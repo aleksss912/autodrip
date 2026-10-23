@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "dripfall",
+  "version": "${version}",
+  "name": "DripFall",
+  "description": "Szybko spadające stalaktyty z trapdorów (solo lub serwer z modem) oraz szybko poruszające się klapy na każdym serwerze. Menu pod klawiszem K.",
+  "authors": ["Ty"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.dripfall.DripFall"],
+    "client": ["com.example.dripfall.client.DripFallClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
